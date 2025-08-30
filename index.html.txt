@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Book</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .book-cover {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+    p {
+      font-size: 16px;
+      color: #555;
+      margin: 15px 0 25px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Replace with your book cover -->
+    <img src="book-cover.jpg" alt="Book Cover" class="book-cover">
+    
+    <!-- Book name -->
+    <h1>Color Your Future</h1>
+    
+    <!-- Small description -->
+    <p>This book teaches kids the most important habits and principles for success from a young age, helping them build a strong foundation for life.</p>
+    
+    <!-- WhatsApp button (replace YOURNUMBER with your phone number) -->
+    <a href="https://wa.me/201011432236" class="btn" target="_blank">Order on WhatsApp</a>
+  </div>
+</body>
+</html>
