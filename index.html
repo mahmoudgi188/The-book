@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Book</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f5f5f5;
+      background: #ffffff; /* White background */
       text-align: center;
     }
     .container {
@@ -26,13 +28,20 @@
     }
     h1 {
       margin-top: 20px;
-      font-size: 24px;
+      font-size: 28px;
+      font-weight: bold; /* Bold font */
       color: #333;
     }
     p {
       font-size: 16px;
       color: #555;
       margin: 15px 0 25px;
+    }
+    .price {
+      font-size: 22px;
+      font-weight: bold;
+      color: red;
+      margin: 15px 0;
     }
     .btn {
       display: inline-block;
@@ -47,6 +56,19 @@
     .btn:hover {
       background: #1ebe5d;
     }
+    .features {
+      text-align: left;
+      margin: 20px 0;
+    }
+    .features p {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #333;
+    }
+    .features i {
+      color: green;
+      margin-right: 8px;
+    }
   </style>
 </head>
 <body>
@@ -57,11 +79,20 @@
     <!-- Book name -->
     <h1>Color Your Future</h1>
     
+    <!-- Price -->
+    <p class="price"><i class="fas fa-money-bill-wave"></i> 90 LE</p>
+    
     <!-- Small description -->
     <p>This book teaches kids the most important habits and principles for success from a young age, helping them build a strong foundation for life.</p>
     
-    <!-- WhatsApp button (replace YOURNUMBER with your phone number) -->
-    <a href="https://wa.me/201011432236" class="btn" target="_blank">Order on WhatsApp</a>
+    <!-- What you will get -->
+    <div class="features">
+      <p><i class="fas fa-check-circle"></i> Teaches kids valuable success habits</p>
+      <p><i class="fas fa-check-circle"></i> Builds a strong foundation for their future</p>
+    </div>
+    
+    <!-- WhatsApp button -->
+    <a href="https://wa.me/201011432236" class="btn"><i class="fas fa-phone"></i> Order on WhatsApp</a>
   </div>
 </body>
 </html>
